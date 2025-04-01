@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CV | </title>
+<meta name="title" content="CV" />
+<meta name="description" content="About Me
+教育
+
+
+
+硕士 江南大学（无锡） | 2017/09 &ndash; 2020/06
+计算机科学与技术
+
+Top 1%
+A&#43;课程: 计算机视觉，计算机组成原理，高级数据结构，高级计算机系统
+
+
+
+本科 常熟理工学院（苏州） | 2015/09 &ndash; 2017/06
+
+Top 1%
+A&#43;课程：数据结构，计算机网络，操作系统
+
+
+
+个人维护项目
+搭建了一套完整的量化交易方案，目前正在稳定运行当中。
+
+binance websocket数据不间断获取
+数据库的搭建 PostgreSQL
+因子生成
+交易评估
+
+工作经历
+
+StorageX.ai 无锡 软件开发 | 2022/05 &ndash; Now
+基于FPGA的llm(including llama, deepseek)系列模型全生态实现 (Python, Gradio, Pybind, RAG, Triton, CUDA)
+基于公司硬件实现的llm模型的算子，在硬件平台上跑llama系列模型，将硬件暴露出来的接口用python进行绑定，从而实现与gradio可视化进行结合，形成一套完整的llm应用。
+
+对llama模型进行分析每一层每一个算子的具体实现，将其实现以及测试用例提供给硬件实现。
+针对硬件提供的llama模型的实现,编写C&#43;&#43;层的驱动程序，用python ctypes去绑定其接口，然后实现python层面的调用。
+由于tokenizer C&#43;&#43;实现比较困难，因此用python去调tokenizer然后将token的idx索引传递给封装好的方法，方法拿到idx首先拿到embedding然后传进硬件平台，然后得到硬件的结果，进行取最大值或者sample然后decode输出，从而得到模型结果。
+
+Soc相关研究以及开发（LLVM、spike）
+
+理解riscv vector指令集以及llm中flash attention的实现方式。
+采用rvv指令集实现flash attention，并在spike模拟器中跑起来，并运行在公司的soc上。
+跟踪前沿的llm技术。
+
+AI编译器 相关技术栈(MLIR,LLVM,TVM,CMake,Ninja,gRPC等)
+将深度学习模型如tensorflow或pytorch通过MLIR转为高阶IR，并对IR进行分析pass编写，优化，去除dead code等操作，转成精简的MLIR并进一步下沉到llvm IR，并通过xilinx的工具进一步交叉编译为AIE的可执行文件，整个项目属于开创性的工作，首次打通了模型到FPGA的运行流程，缺点是严重依赖xilinx的Compiler的支持。
+
+打通深度学习模型从Pytorch以及Tensorflow到MLIR到FPGA的运行流程. 从MLIR graph到LLVM IR到Binary.
+产出一篇专利《一种基于MLIR的FPGA神经网络模型部署方法及装置》
+产出一篇专利《一种高效的神经网络模型权重存储方式》，利用zero-copy以及序列化技术加快权重的读取
+对LLVM、DALI（NVIDIA）、TVM，triton以及Pytorch源代码进行分析抽象提取供内部项目使用。
+针对内部的场景，将模型推理用C&#43;&#43;进行编写，grpc C&#43;&#43; server, 混合Python/C&#43;&#43;编程，利用cython以及ctype进行接口开发，从0到1搭建了公司内部的推理平台。
+内部开展C&#43;&#43;培训以及Large Language Model的培训
+
+腾讯 深圳 AI Lab T7 应用研究岗 | 2020/06 &ndash; 2022/05
+任务：从序列出发研究蛋白质结构。蛋白质折叠问题是生物里面核心问题，蛋白质结构决定了该蛋白质的功能，而蛋白质序列决定了蛋白质的结构。因此如何从蛋白质序列出发得到蛋白质的结构是生物信息中重要探索方向。针对大量的蛋白质序列，如何将自然语言处理技术应用在蛋白质序列上是一个重要的研究方向。" />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="/cv/">
+  <meta property="og:title" content="CV">
+  <meta property="og:description" content="About Me 教育 硕士 江南大学（无锡） | 2017/09 – 2020/06
+计算机科学与技术
+Top 1% A&#43;课程: 计算机视觉，计算机组成原理，高级数据结构，高级计算机系统 本科 常熟理工学院（苏州） | 2015/09 – 2017/06
+Top 1% A&#43;课程：数据结构，计算机网络，操作系统 个人维护项目 搭建了一套完整的量化交易方案，目前正在稳定运行当中。
+binance websocket数据不间断获取 数据库的搭建 PostgreSQL 因子生成 交易评估 工作经历 StorageX.ai 无锡 软件开发 | 2022/05 – Now
+基于FPGA的llm(including llama, deepseek)系列模型全生态实现 (Python, Gradio, Pybind, RAG, Triton, CUDA)
+基于公司硬件实现的llm模型的算子，在硬件平台上跑llama系列模型，将硬件暴露出来的接口用python进行绑定，从而实现与gradio可视化进行结合，形成一套完整的llm应用。
+对llama模型进行分析每一层每一个算子的具体实现，将其实现以及测试用例提供给硬件实现。 针对硬件提供的llama模型的实现,编写C&#43;&#43;层的驱动程序，用python ctypes去绑定其接口，然后实现python层面的调用。 由于tokenizer C&#43;&#43;实现比较困难，因此用python去调tokenizer然后将token的idx索引传递给封装好的方法，方法拿到idx首先拿到embedding然后传进硬件平台，然后得到硬件的结果，进行取最大值或者sample然后decode输出，从而得到模型结果。 Soc相关研究以及开发（LLVM、spike）
+理解riscv vector指令集以及llm中flash attention的实现方式。 采用rvv指令集实现flash attention，并在spike模拟器中跑起来，并运行在公司的soc上。 跟踪前沿的llm技术。 AI编译器 相关技术栈(MLIR,LLVM,TVM,CMake,Ninja,gRPC等)
+将深度学习模型如tensorflow或pytorch通过MLIR转为高阶IR，并对IR进行分析pass编写，优化，去除dead code等操作，转成精简的MLIR并进一步下沉到llvm IR，并通过xilinx的工具进一步交叉编译为AIE的可执行文件，整个项目属于开创性的工作，首次打通了模型到FPGA的运行流程，缺点是严重依赖xilinx的Compiler的支持。
+打通深度学习模型从Pytorch以及Tensorflow到MLIR到FPGA的运行流程. 从MLIR graph到LLVM IR到Binary. 产出一篇专利《一种基于MLIR的FPGA神经网络模型部署方法及装置》 产出一篇专利《一种高效的神经网络模型权重存储方式》，利用zero-copy以及序列化技术加快权重的读取 对LLVM、DALI（NVIDIA）、TVM，triton以及Pytorch源代码进行分析抽象提取供内部项目使用。 针对内部的场景，将模型推理用C&#43;&#43;进行编写，grpc C&#43;&#43; server, 混合Python/C&#43;&#43;编程，利用cython以及ctype进行接口开发，从0到1搭建了公司内部的推理平台。 内部开展C&#43;&#43;培训以及Large Language Model的培训 腾讯 深圳 AI Lab T7 应用研究岗 | 2020/06 – 2022/05
+任务：从序列出发研究蛋白质结构。蛋白质折叠问题是生物里面核心问题，蛋白质结构决定了该蛋白质的功能，而蛋白质序列决定了蛋白质的结构。因此如何从蛋白质序列出发得到蛋白质的结构是生物信息中重要探索方向。针对大量的蛋白质序列，如何将自然语言处理技术应用在蛋白质序列上是一个重要的研究方向。">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="CV">
+  <meta name="twitter:description" content="About Me 教育 硕士 江南大学（无锡） | 2017/09 – 2020/06
+计算机科学与技术
+Top 1% A&#43;课程: 计算机视觉，计算机组成原理，高级数据结构，高级计算机系统 本科 常熟理工学院（苏州） | 2015/09 – 2017/06
+Top 1% A&#43;课程：数据结构，计算机网络，操作系统 个人维护项目 搭建了一套完整的量化交易方案，目前正在稳定运行当中。
+binance websocket数据不间断获取 数据库的搭建 PostgreSQL 因子生成 交易评估 工作经历 StorageX.ai 无锡 软件开发 | 2022/05 – Now
+基于FPGA的llm(including llama, deepseek)系列模型全生态实现 (Python, Gradio, Pybind, RAG, Triton, CUDA)
+基于公司硬件实现的llm模型的算子，在硬件平台上跑llama系列模型，将硬件暴露出来的接口用python进行绑定，从而实现与gradio可视化进行结合，形成一套完整的llm应用。
+对llama模型进行分析每一层每一个算子的具体实现，将其实现以及测试用例提供给硬件实现。 针对硬件提供的llama模型的实现,编写C&#43;&#43;层的驱动程序，用python ctypes去绑定其接口，然后实现python层面的调用。 由于tokenizer C&#43;&#43;实现比较困难，因此用python去调tokenizer然后将token的idx索引传递给封装好的方法，方法拿到idx首先拿到embedding然后传进硬件平台，然后得到硬件的结果，进行取最大值或者sample然后decode输出，从而得到模型结果。 Soc相关研究以及开发（LLVM、spike）
+理解riscv vector指令集以及llm中flash attention的实现方式。 采用rvv指令集实现flash attention，并在spike模拟器中跑起来，并运行在公司的soc上。 跟踪前沿的llm技术。 AI编译器 相关技术栈(MLIR,LLVM,TVM,CMake,Ninja,gRPC等)
+将深度学习模型如tensorflow或pytorch通过MLIR转为高阶IR，并对IR进行分析pass编写，优化，去除dead code等操作，转成精简的MLIR并进一步下沉到llvm IR，并通过xilinx的工具进一步交叉编译为AIE的可执行文件，整个项目属于开创性的工作，首次打通了模型到FPGA的运行流程，缺点是严重依赖xilinx的Compiler的支持。
+打通深度学习模型从Pytorch以及Tensorflow到MLIR到FPGA的运行流程. 从MLIR graph到LLVM IR到Binary. 产出一篇专利《一种基于MLIR的FPGA神经网络模型部署方法及装置》 产出一篇专利《一种高效的神经网络模型权重存储方式》，利用zero-copy以及序列化技术加快权重的读取 对LLVM、DALI（NVIDIA）、TVM，triton以及Pytorch源代码进行分析抽象提取供内部项目使用。 针对内部的场景，将模型推理用C&#43;&#43;进行编写，grpc C&#43;&#43; server, 混合Python/C&#43;&#43;编程，利用cython以及ctype进行接口开发，从0到1搭建了公司内部的推理平台。 内部开展C&#43;&#43;培训以及Large Language Model的培训 腾讯 深圳 AI Lab T7 应用研究岗 | 2020/06 – 2022/05
+任务：从序列出发研究蛋白质结构。蛋白质折叠问题是生物里面核心问题，蛋白质结构决定了该蛋白质的功能，而蛋白质序列决定了蛋白质的结构。因此如何从蛋白质序列出发得到蛋白质的结构是生物信息中重要探索方向。针对大量的蛋白质序列，如何将自然语言处理技术应用在蛋白质序列上是一个重要的研究方向。">
+
+
+
+
+  <meta itemprop="name" content="CV">
+  <meta itemprop="description" content="About Me 教育 硕士 江南大学（无锡） | 2017/09 – 2020/06
+计算机科学与技术
+Top 1% A&#43;课程: 计算机视觉，计算机组成原理，高级数据结构，高级计算机系统 本科 常熟理工学院（苏州） | 2015/09 – 2017/06
+Top 1% A&#43;课程：数据结构，计算机网络，操作系统 个人维护项目 搭建了一套完整的量化交易方案，目前正在稳定运行当中。
+binance websocket数据不间断获取 数据库的搭建 PostgreSQL 因子生成 交易评估 工作经历 StorageX.ai 无锡 软件开发 | 2022/05 – Now
+基于FPGA的llm(including llama, deepseek)系列模型全生态实现 (Python, Gradio, Pybind, RAG, Triton, CUDA)
+基于公司硬件实现的llm模型的算子，在硬件平台上跑llama系列模型，将硬件暴露出来的接口用python进行绑定，从而实现与gradio可视化进行结合，形成一套完整的llm应用。
+对llama模型进行分析每一层每一个算子的具体实现，将其实现以及测试用例提供给硬件实现。 针对硬件提供的llama模型的实现,编写C&#43;&#43;层的驱动程序，用python ctypes去绑定其接口，然后实现python层面的调用。 由于tokenizer C&#43;&#43;实现比较困难，因此用python去调tokenizer然后将token的idx索引传递给封装好的方法，方法拿到idx首先拿到embedding然后传进硬件平台，然后得到硬件的结果，进行取最大值或者sample然后decode输出，从而得到模型结果。 Soc相关研究以及开发（LLVM、spike）
+理解riscv vector指令集以及llm中flash attention的实现方式。 采用rvv指令集实现flash attention，并在spike模拟器中跑起来，并运行在公司的soc上。 跟踪前沿的llm技术。 AI编译器 相关技术栈(MLIR,LLVM,TVM,CMake,Ninja,gRPC等)
+将深度学习模型如tensorflow或pytorch通过MLIR转为高阶IR，并对IR进行分析pass编写，优化，去除dead code等操作，转成精简的MLIR并进一步下沉到llvm IR，并通过xilinx的工具进一步交叉编译为AIE的可执行文件，整个项目属于开创性的工作，首次打通了模型到FPGA的运行流程，缺点是严重依赖xilinx的Compiler的支持。
+打通深度学习模型从Pytorch以及Tensorflow到MLIR到FPGA的运行流程. 从MLIR graph到LLVM IR到Binary. 产出一篇专利《一种基于MLIR的FPGA神经网络模型部署方法及装置》 产出一篇专利《一种高效的神经网络模型权重存储方式》，利用zero-copy以及序列化技术加快权重的读取 对LLVM、DALI（NVIDIA）、TVM，triton以及Pytorch源代码进行分析抽象提取供内部项目使用。 针对内部的场景，将模型推理用C&#43;&#43;进行编写，grpc C&#43;&#43; server, 混合Python/C&#43;&#43;编程，利用cython以及ctype进行接口开发，从0到1搭建了公司内部的推理平台。 内部开展C&#43;&#43;培训以及Large Language Model的培训 腾讯 深圳 AI Lab T7 应用研究岗 | 2020/06 – 2022/05
+任务：从序列出发研究蛋白质结构。蛋白质折叠问题是生物里面核心问题，蛋白质结构决定了该蛋白质的功能，而蛋白质序列决定了蛋白质的结构。因此如何从蛋白质序列出发得到蛋白质的结构是生物信息中重要探索方向。针对大量的蛋白质序列，如何将自然语言处理技术应用在蛋白质序列上是一个重要的研究方向。">
+  <meta itemprop="wordCount" content="339">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+      --width: 720px;
+      --font-main: Verdana, sans-serif;
+      --font-secondary: Verdana, sans-serif;
+      --font-scale: 1em;
+      --background-color: #fff;
+      --heading-color: #222;
+      --text-color: #444;
+      --link-color: #3273dc;
+      --visited-color:  #8b6fcb;
+      --code-background-color: #f2f2f2;
+      --code-color: #222;
+      --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+      :root {
+          --background-color: #01242e;
+          --heading-color: #eee;
+          --text-color: #ddd;
+          --link-color: #8cc2dd;
+          --visited-color:  #8b6fcb;
+          --code-background-color: #000;
+          --code-color: #ddd;
+          --blockquote-color: #ccc;
+      }
+  }
+
+  body {
+      font-family: var(--font-secondary);
+      font-size: var(--font-scale);
+      margin: auto;
+      padding: 20px;
+      max-width: var(--width);
+      text-align: left;
+      background-color: var(--background-color);
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      line-height: 1.5;
+      color: var(--text-color);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-main);
+      color: var(--heading-color);
+  }
+
+  a {
+      color: var(--link-color);
+      cursor: pointer;
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
+  nav a {
+      margin-right: 8px;
+  }
+
+  strong, b {
+      color: var(--heading-color);
+  }
+
+  button {
+      margin: 0;
+      cursor: pointer;
+  }
+
+  time {
+   	font-family: monospace;
+    	font-style: normal;
+    	font-size: 15px;
+  }
+
+  main {
+      line-height: 1.6;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  hr {
+      border: 0;
+      border-top: 1px dashed;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  code {
+      font-family: monospace;
+      padding: 2px;
+      background-color: var(--code-background-color);
+      color: var(--code-color);
+      border-radius: 3px;
+  }
+
+  blockquote {
+      border-left: 1px solid #999;
+      color: var(--code-color);
+      padding-left: 20px;
+      font-style: italic;
+  }
+
+  footer {
+      padding: 25px 0;
+      text-align: center;
+  }
+
+  .title:hover {
+      text-decoration: none;
+  }
+
+  .title h1 {
+      font-size: 1.5em;
+  }
+
+  .inline {
+      width: auto !important;
+  }
+
+  .highlight, .code {
+      padding: 1px 15px;
+      background-color: var(--code-background-color);
+      color: var(--code-color);
+      border-radius: 3px;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+      list-style-type: none;
+      padding: unset;
+  }
+
+  ul.blog-posts li {
+      display: flex;
+  }
+
+  ul.blog-posts li span {
+      flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+      color: var(--visited-color);
+  }
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2></h2>
+</a>
+<nav><a href="/">Home</a>
+
+<a href="/cv/">CV</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<content>
+  <h1 id="about-me">About Me</h1>
+<h2 id="教育">教育</h2>
+<hr>
+<ul>
+<li>
+<p><strong>硕士 江南大学（无锡）</strong> | 2017/09 &ndash; 2020/06<br>
+计算机科学与技术</p>
+<ul>
+<li>Top 1%</li>
+<li>A+课程: 计算机视觉，计算机组成原理，高级数据结构，高级计算机系统</li>
+</ul>
+</li>
+<li>
+<p><strong>本科 常熟理工学院（苏州）</strong> | 2015/09 &ndash; 2017/06</p>
+<ul>
+<li>Top 1%</li>
+<li>A+课程：数据结构，计算机网络，操作系统</li>
+</ul>
+</li>
+</ul>
+<h2 id="个人维护项目">个人维护项目</h2>
+<p>搭建了一套完整的量化交易方案，目前正在稳定运行当中。</p>
+<ol>
+<li>binance websocket数据不间断获取</li>
+<li>数据库的搭建 PostgreSQL</li>
+<li>因子生成</li>
+<li>交易评估</li>
+</ol>
+<h2 id="工作经历">工作经历</h2>
+<hr>
+<p><strong>StorageX.ai 无锡 软件开发</strong> | 2022/05 &ndash; Now<br>
+基于FPGA的llm(including llama, deepseek)系列模型全生态实现 (Python, Gradio, Pybind, RAG, Triton, CUDA)</p>
+<p>基于公司硬件实现的llm模型的算子，在硬件平台上跑llama系列模型，将硬件暴露出来的接口用python进行绑定，从而实现与gradio可视化进行结合，形成一套完整的llm应用。</p>
+<ul>
+<li>对llama模型进行分析每一层每一个算子的具体实现，将其实现以及测试用例提供给硬件实现。</li>
+<li>针对硬件提供的llama模型的实现,编写C++层的驱动程序，用python ctypes去绑定其接口，然后实现python层面的调用。</li>
+<li>由于tokenizer C++实现比较困难，因此用python去调tokenizer然后将token的idx索引传递给封装好的方法，方法拿到idx首先拿到embedding然后传进硬件平台，然后得到硬件的结果，进行取最大值或者sample然后decode输出，从而得到模型结果。</li>
+</ul>
+<p>Soc相关研究以及开发（LLVM、spike）</p>
+<ul>
+<li>理解riscv vector指令集以及llm中flash attention的实现方式。</li>
+<li>采用rvv指令集实现flash attention，并在spike模拟器中跑起来，并运行在公司的soc上。</li>
+<li>跟踪前沿的llm技术。</li>
+</ul>
+<p>AI编译器 相关技术栈(MLIR,LLVM,TVM,CMake,Ninja,gRPC等)<br>
+将深度学习模型如tensorflow或pytorch通过MLIR转为高阶IR，并对IR进行分析pass编写，优化，去除dead code等操作，转成精简的MLIR并进一步下沉到llvm IR，并通过xilinx的工具进一步交叉编译为AIE的可执行文件，整个项目属于开创性的工作，首次打通了模型到FPGA的运行流程，缺点是严重依赖xilinx的Compiler的支持。</p>
+<ul>
+<li>打通深度学习模型从Pytorch以及Tensorflow到MLIR到FPGA的运行流程. 从MLIR graph到LLVM IR到Binary.</li>
+<li>产出一篇专利《一种基于MLIR的FPGA神经网络模型部署方法及装置》</li>
+<li>产出一篇专利《一种高效的神经网络模型权重存储方式》，利用zero-copy以及序列化技术加快权重的读取</li>
+<li>对LLVM、DALI（NVIDIA）、TVM，triton以及Pytorch源代码进行分析抽象提取供内部项目使用。</li>
+<li>针对内部的场景，将模型推理用C++进行编写，grpc C++ server, 混合Python/C++编程，利用cython以及ctype进行接口开发，从0到1搭建了公司内部的推理平台。</li>
+<li>内部开展C++培训以及Large Language Model的培训</li>
+</ul>
+<p><strong>腾讯 深圳 AI Lab T7 应用研究岗</strong> | 2020/06 &ndash; 2022/05<br>
+任务：从序列出发研究蛋白质结构。蛋白质折叠问题是生物里面核心问题，蛋白质结构决定了该蛋白质的功能，而蛋白质序列决定了蛋白质的结构。因此如何从蛋白质序列出发得到蛋白质的结构是生物信息中重要探索方向。针对大量的蛋白质序列，如何将自然语言处理技术应用在蛋白质序列上是一个重要的研究方向。</p>
+<ul>
+<li>我首先从全球最大的蛋白质数据库出发PDB Bank整理约10亿条序列，并对这些序列进行domain切分与pfam数据库进行比对，接下来将Bert一套模式迁移到蛋白质序列上，深度使用huggingface库进行调试训练，在一周之内完成10亿条蛋白质序列语言模型预训练。</li>
+<li>在传统蛋白质折叠过程中，MSA是一个比较重要的输入。而有些蛋白比较少见，因此MSA 异常的少，因此需要高质量的MSA进行辅助预测3D结构。我提出了用预训练好的语言模型来产生伪MAS，具体做法是对每一个序列进行使用 [MASK] 进行掩盖，然后通过上下文去预测该位置的高置信度氨基酸。</li>
+<li>结果: 该模型在蛋白质二级结构上预测取得了SOTA效果，不管是有无MSA, 模型的鲁棒性都很强，同时该工作发表在了AAAI2021[PSSM-Distil: Protein Secondary Structure Prediction (PSSP) on Low-Quality PSSM by Knowledge Distillation with Contrastive Learning]. 并与tfold团队参加了CASP14比赛。</li>
+</ul>
+<p>任务: 抗体项目的孵化以及上线
+抗体是蛋白质的一个细分的种类，抗体的重要性不言而喻。而国内在抗体这方面进展不是很大主要因为抗体序列简单，但是 CDR3 结构折叠难，同时抗体相关的数据集比较少，如何将大量的无监督抗体序列应用起来成为生物信息的一个研究重点。</p>
+<ul>
+<li>我针对抗体的特殊性提出了可变区域的动态MAKS进行预训练。因为抗体序列大部分是一致的，只有其中3块区域是可变的，也就是成为可变区与保守区。保守区的序列几乎不变，而可变区氨基酸变化很大，因此传统的BERT自然语言默认15%的MASK概率在抗体中不适用。从全球最大的抗体数据库上OAS收集了约1.8亿条抗体序列进行模型预训练。</li>
+<li>完成模型预训练之后，进行了多个下游任务的微调，包括抗体分类、抗体接触位点预测、抗体亲和力预测、抗体改造等等细分领域的微调。</li>
+<li>结果: 在抗体分类以及接触位点预测取得了SOTA的结果，其中抗体接触位点0.87提升到0.96（数据集为公开收集的），达到了商用的精度。并上线到腾讯药物平台-云深制药iDrug，为腾讯产生3篇新型实用专利，并参加了百图生科举办的全球抗体亲和力预测大赛，用我的模型非常简单的就能达到top10的名次，最终复赛排名第8，而我的方案是所有参赛队伍中最简单的。</li>
+</ul>
+<p><strong>无锡希捷科技 算法岗</strong> | 2018/06 &ndash; 2018/12<br>
+任务： 通过LightGBM来检测硬盘的损坏程度</p>
+<h2 id="开源项目">开源项目</h2>
+<hr>
+<ul>
+<li>openai/triton 为openai的编译器贡献代码 <a href="https://github.com/openai/triton/pull/1803">https://github.com/openai/triton/pull/1803</a></li>
+<li>flow-mlir 一种简单的mlir编译器项目 <a href="https://github.com/HadXu/flow-mlir">https://github.com/HadXu/flow-mlir</a></li>
+<li>Thunder 一种类似 Pytorch 的深度学习框架 <a href="https://github.com/HadXu/Thunder">https://github.com/HadXu/Thunder</a></li>
+<li>Rust-OS 一种 Rust 语言实现的迷你操作系统 <a href="https://github.com/HadXu/os">https://github.com/HadXu/os</a></li>
+<li>rust-lang 一种迷你的解释器 <a href="https://github.com/HadXu/rust-lang">https://github.com/HadXu/rust-lang</a></li>
+<li>rust-raytracer 一种简单的光线追踪器 <a href="https://github.com/HadXu/rust-raytracer">https://github.com/HadXu/rust-raytracer</a></li>
+</ul>
+<h2 id="获奖情况">获奖情况</h2>
+<hr>
+<ul>
+<li>季军, 8 / 890, 单人, 全球抗体亲和力预测大赛 | 2021 年 12 月</li>
+<li>银牌, 16 / 2749, 主力, Kaggle Predicting Molecular Properties Classification | 2019 年8月</li>
+<li>金牌, 11 / 2172, 核心, Kaggle Human Protein Atlas Image Classification | 2019 年 1 月</li>
+<li>亚军, 2 / 2200, 主力, 天池瑞金医院 (知识图谱)（3w人民币奖金） | 2018 年 12 月</li>
+<li>冠军, 1 / 934, 核心, 2018年天池之江杯全球人工智能大赛（50w人民币奖金） | 2018 年 10 月</li>
+<li>优胜奖, 10 / 622, 主力, 第三届阿里云安全算法大赛（1w人民币奖金） | 2018 年 8 月</li>
+<li>银牌, 36 / 7198, Kaggle Home Credit Default Risk | 2018 年 8 月</li>
+<li>二等奖, 6 / 946, 核心, 第三届拍拍贷魔镜杯 (NLP)（5w人民币奖金） | 2018 年 7 月</li>
+<li>二等奖, 5 / 1904, 主力, DC 公交预测大赛(5w人民币奖金) | 2018 年 6 月</li>
+<li>二等奖, 主力, 全国物联网设计大赛 | 2016 年 6 月</li>
+<li>二等奖, 个人, 全国大学生蓝桥杯算法竞赛 | 2015 年 6 月</li>
+</ul>
+<h2 id="paper--专利">Paper &amp; 专利</h2>
+<hr>
+<ul>
+<li>PSSM-Distil: Protein Secondary Structure Prediction (PSSP) on Low-Quality PSSM by Knowledge Distillation with Contrastive Learning (2021 AAAI, Tencent)</li>
+<li>模型训练、抗体改造和结合位点预测的方法与装置（Tencent）</li>
+<li>一种抗体物种的改造方法、装置、设备及存储介质 (Tencent)</li>
+<li>数据处理方法、装置、计算机设备、介质及程序产品 (Tencent)</li>
+<li>一种分子性质预测方法、装置、存储介质和电子设备(Tencent)</li>
+<li>基因脱靶预测模型训练方法、预测方法、装置及电子设备(Tencent)</li>
+<li>一种基于MLIR的FPGA神经网络模型部署方法及装置(深存科技)</li>
+<li>一种高效的神经网络模型权重存储方式(深存科技)</li>
+</ul>
+<p><strong>Technologies</strong></p>
+<h4 id="-machine-learning">🤖 Machine Learning</h4>
+<p>Transformers, PyTorch, Scikit-Learn, Langchain, TensorRT, Triton, ONNX.</p>
+<hr>
+<h4 id="-cloud">☁️ Cloud</h4>
+<p>AWS, GCP, Azure, Docker, Github Actions.</p>
+<hr>
+<h4 id="-non-ml">🏗️ Non-ML</h4>
+<p>Rust, Go, Python, C++</p>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo</a>
+</footer>
+
+    
+</body>
+
+</html>
