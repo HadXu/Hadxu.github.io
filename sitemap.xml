@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/the-economist/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/young-chinese-are-turning-to-ai-chatbots-for-friendship-and-love/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/soft/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/soft/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/markdown/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
@@ -15,9 +30,6 @@
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/syntax/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
