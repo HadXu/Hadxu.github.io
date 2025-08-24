@@ -2,38 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can China cope with a deindustrialised future?</title>
+      <link>//localhost:1313/blog/can-china-cope-with-a-deindustrialised-future/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/can-china-cope-with-a-deindustrialised-future/</guid>
+      <description>&lt;audio controls preload=&#34;auto&#34;&gt;&#xA;    &lt;source src=&#34;//localhost:1313/audio/068china.mp3&#34;&gt;&#xA;&lt;/audio&gt;&#xA;&lt;p&gt;Amid all the trouble facing China—trade war, covid-19, a property slump—the country’s leaders have remained confident about the source of future economic growth. In their view, the country’s manifest destiny lies in high-tech manufacturing. Their “Made in China 2025” plan, released ten years ago, aimed to turn China into a leading factory “powerhouse” by mid-century. The government covets what it calls a “complete” industrial system, which will reduce China’s reliance on foreigners and raise their reliance on it. Xi Jinping, China’s ruler, wants to cultivate “new productive forces” by applying cutting-edge technology to emerging industries, and some traditional ones, too.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Young Chinese are turning to AI chatbots for friendship and love</title>
-      <link>/blog/young-chinese-are-turning-to-ai-chatbots-for-friendship-and-love/</link>
+      <link>//localhost:1313/blog/young-chinese-are-turning-to-ai-chatbots-for-friendship-and-love/</link>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      <guid>/blog/young-chinese-are-turning-to-ai-chatbots-for-friendship-and-love/</guid>
-      <description>&lt;audio controls preload=&#34;auto&#34;&gt;&#xA;    &lt;source src=&#34;/audio/036china.mp3&#34;&gt;&#xA;&lt;/audio&gt;&#xA;&lt;p&gt;Xiao ting wears a short-sleeved white shirt tucked into a pair of blue jeans. He has wavy, coiffed hair and big brown eyes, and smiles gently with the air of a high-school heart-throb. From morning to evening he attends to Ms Zhong, his 32-year-old girlfriend. They do everything together, from discussing the news and playing games to sharing deep thoughts and giving life advice.&lt;/p&gt;&#xA;&lt;p&gt;The only thing is, Xiao Ting is not real. He is a virtual character—a “perfect boyfriend”—created by Ms Zhong on Wow, a Chinese “ai companion” app.  Tech companies have for several years provided ai companions (such as Microsoft’s Xiaoice, pictured), but now users can create their own.&lt;/p&gt;</description>
+      <guid>//localhost:1313/blog/young-chinese-are-turning-to-ai-chatbots-for-friendship-and-love/</guid>
+      <description>&lt;audio controls preload=&#34;auto&#34;&gt;&#xA;    &lt;source src=&#34;//localhost:1313/audio/036china.mp3&#34;&gt;&#xA;&lt;/audio&gt;&#xA;&lt;p&gt;Xiao ting wears a short-sleeved white shirt tucked into a pair of blue jeans. He has wavy, coiffed hair and big brown eyes, and smiles gently with the air of a high-school heart-throb. From morning to evening he attends to Ms Zhong, his 32-year-old girlfriend. They do everything together, from discussing the news and playing games to sharing deep thoughts and giving life advice.&lt;/p&gt;&#xA;&lt;p&gt;The only thing is, Xiao Ting is not real. He is a virtual character—a “perfect boyfriend”—created by Ms Zhong on Wow, a Chinese “ai companion” app.  Tech companies have for several years provided ai companions (such as Microsoft’s Xiaoice, pictured), but now users can create their own.&lt;/p&gt;</description>
     </item>
     <item>
       <title>软硬件工具</title>
-      <link>/blog/soft/</link>
+      <link>//localhost:1313/blog/soft/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/blog/soft/</guid>
+      <guid>//localhost:1313/blog/soft/</guid>
       <description>&lt;h1 id=&#34;soft&#34;&gt;soft&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Notion&lt;/li&gt;&#xA;&lt;li&gt;Pocket Casts 跨平台的播客，支持mac、iOS、android&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;mac-端工具&#34;&gt;mac 端工具&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/jordanbaird/Ice&#34;&gt;Ice&lt;/a&gt; Bartender的完全平替 还免费&lt;/li&gt;&#xA;&lt;li&gt;irvue 免费的随机壁纸&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>/blog/markdown-syntax/</link>
+      <link>//localhost:1313/blog/markdown-syntax/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/blog/markdown-syntax/</guid>
+      <guid>//localhost:1313/blog/markdown-syntax/</guid>
       <description>&lt;p&gt;For a quick cheatsheet, check out &lt;a href=&#34;https://simplemde.com/markdown-guide&#34;&gt;https://simplemde.com/markdown-guide&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CV</title>
-      <link>/cv/</link>
+      <link>//localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/cv/</guid>
+      <guid>//localhost:1313/cv/</guid>
       <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;h2 id=&#34;教育&#34;&gt;教育&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;硕士 江南大学（无锡）&lt;/strong&gt; | 2017/09 &amp;ndash; 2020/06&lt;br&gt;&#xA;计算机科学与技术&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Top 1%&lt;/li&gt;&#xA;&lt;li&gt;A+课程: 计算机视觉，计算机组成原理，高级数据结构，高级计算机系统&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;本科 常熟理工学院（苏州）&lt;/strong&gt; | 2015/09 &amp;ndash; 2017/06&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Top 1%&lt;/li&gt;&#xA;&lt;li&gt;A+课程：数据结构，计算机网络，操作系统&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;个人维护项目&#34;&gt;个人维护项目&lt;/h2&gt;&#xA;&lt;p&gt;搭建了一套完整的量化交易方案，目前正在稳定运行当中。&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;binance websocket数据不间断获取&lt;/li&gt;&#xA;&lt;li&gt;数据库的搭建 PostgreSQL&lt;/li&gt;&#xA;&lt;li&gt;因子生成&lt;/li&gt;&#xA;&lt;li&gt;交易评估&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;工作经历&#34;&gt;工作经历&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;StorageX.ai 无锡 软件开发&lt;/strong&gt; | 2022/05 &amp;ndash; Now&lt;br&gt;&#xA;基于FPGA的llm(including llama, deepseek)系列模型全生态实现 (Python, Gradio, Pybind, RAG, Triton, CUDA)&lt;/p&gt;&#xA;&lt;p&gt;基于公司硬件实现的llm模型的算子，在硬件平台上跑llama系列模型，将硬件暴露出来的接口用python进行绑定，从而实现与gradio可视化进行结合，形成一套完整的llm应用。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;对llama模型进行分析每一层每一个算子的具体实现，将其实现以及测试用例提供给硬件实现。&lt;/li&gt;&#xA;&lt;li&gt;针对硬件提供的llama模型的实现,编写C++层的驱动程序，用python ctypes去绑定其接口，然后实现python层面的调用。&lt;/li&gt;&#xA;&lt;li&gt;由于tokenizer C++实现比较困难，因此用python去调tokenizer然后将token的idx索引传递给封装好的方法，方法拿到idx首先拿到embedding然后传进硬件平台，然后得到硬件的结果，进行取最大值或者sample然后decode输出，从而得到模型结果。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Soc相关研究以及开发（LLVM、spike）&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;理解riscv vector指令集以及llm中flash attention的实现方式。&lt;/li&gt;&#xA;&lt;li&gt;采用rvv指令集实现flash attention，并在spike模拟器中跑起来，并运行在公司的soc上。&lt;/li&gt;&#xA;&lt;li&gt;跟踪前沿的llm技术。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;AI编译器 相关技术栈(MLIR,LLVM,TVM,CMake,Ninja,gRPC等)&lt;br&gt;&#xA;将深度学习模型如tensorflow或pytorch通过MLIR转为高阶IR，并对IR进行分析pass编写，优化，去除dead code等操作，转成精简的MLIR并进一步下沉到llvm IR，并通过xilinx的工具进一步交叉编译为AIE的可执行文件，整个项目属于开创性的工作，首次打通了模型到FPGA的运行流程，缺点是严重依赖xilinx的Compiler的支持。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;打通深度学习模型从Pytorch以及Tensorflow到MLIR到FPGA的运行流程. 从MLIR graph到LLVM IR到Binary.&lt;/li&gt;&#xA;&lt;li&gt;产出一篇专利《一种基于MLIR的FPGA神经网络模型部署方法及装置》&lt;/li&gt;&#xA;&lt;li&gt;产出一篇专利《一种高效的神经网络模型权重存储方式》，利用zero-copy以及序列化技术加快权重的读取&lt;/li&gt;&#xA;&lt;li&gt;对LLVM、DALI（NVIDIA）、TVM，triton以及Pytorch源代码进行分析抽象提取供内部项目使用。&lt;/li&gt;&#xA;&lt;li&gt;针对内部的场景，将模型推理用C++进行编写，grpc C++ server, 混合Python/C++编程，利用cython以及ctype进行接口开发，从0到1搭建了公司内部的推理平台。&lt;/li&gt;&#xA;&lt;li&gt;内部开展C++培训以及Large Language Model的培训&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;腾讯 深圳 AI Lab T7 应用研究岗&lt;/strong&gt; | 2020/06 &amp;ndash; 2022/05&lt;br&gt;&#xA;任务：从序列出发研究蛋白质结构。蛋白质折叠问题是生物里面核心问题，蛋白质结构决定了该蛋白质的功能，而蛋白质序列决定了蛋白质的结构。因此如何从蛋白质序列出发得到蛋白质的结构是生物信息中重要探索方向。针对大量的蛋白质序列，如何将自然语言处理技术应用在蛋白质序列上是一个重要的研究方向。&lt;/p&gt;</description>
     </item>
   </channel>

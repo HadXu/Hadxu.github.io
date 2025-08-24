@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Soft on </title>
-    <link>/tags/soft/</link>
+    <link>//localhost:1313/tags/soft/</link>
     <description>Recent content in Soft on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/soft/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/soft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>软硬件工具</title>
-      <link>/blog/soft/</link>
+      <link>//localhost:1313/blog/soft/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/blog/soft/</guid>
+      <guid>//localhost:1313/blog/soft/</guid>
       <description>&lt;h1 id=&#34;soft&#34;&gt;soft&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Notion&lt;/li&gt;&#xA;&lt;li&gt;Pocket Casts 跨平台的播客，支持mac、iOS、android&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;mac-端工具&#34;&gt;mac 端工具&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/jordanbaird/Ice&#34;&gt;Ice&lt;/a&gt; Bartender的完全平替 还免费&lt;/li&gt;&#xA;&lt;li&gt;irvue 免费的随机壁纸&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
