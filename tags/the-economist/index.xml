@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Economist on </title>
-    <link>//localhost:1313/tags/the-economist/</link>
+    <link>/tags/the-economist/</link>
     <description>Recent content in The Economist on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/the-economist/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/the-economist/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Can China cope with a deindustrialised future?</title>
-      <link>//localhost:1313/blog/can-china-cope-with-a-deindustrialised-future/</link>
+      <link>/blog/can-china-cope-with-a-deindustrialised-future/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/can-china-cope-with-a-deindustrialised-future/</guid>
-      <description>&lt;audio controls preload=&#34;auto&#34;&gt;&#xA;    &lt;source src=&#34;//localhost:1313/audio/068china.mp3&#34;&gt;&#xA;&lt;/audio&gt;&#xA;&lt;p&gt;Amid all the trouble facing China—trade war, covid-19, a property slump—the country’s leaders have remained confident about the source of future economic growth. In their view, the country’s manifest destiny lies in high-tech manufacturing. Their “Made in China 2025” plan, released ten years ago, aimed to turn China into a leading factory “powerhouse” by mid-century. The government covets what it calls a “complete” industrial system, which will reduce China’s reliance on foreigners and raise their reliance on it. Xi Jinping, China’s ruler, wants to cultivate “new productive forces” by applying cutting-edge technology to emerging industries, and some traditional ones, too.&lt;/p&gt;</description>
+      <guid>/blog/can-china-cope-with-a-deindustrialised-future/</guid>
+      <description>&lt;audio controls preload=&#34;auto&#34;&gt;&#xA;    &lt;source src=&#34;/audio/068china.mp3&#34;&gt;&#xA;&lt;/audio&gt;&#xA;&lt;p&gt;Amid all the trouble facing China—trade war, covid-19, a property slump—the country’s leaders have remained confident about the source of future economic growth. In their view, the country’s manifest destiny lies in high-tech manufacturing. Their “Made in China 2025” plan, released ten years ago, aimed to turn China into a leading factory “powerhouse” by mid-century. The government covets what it calls a “complete” industrial system, which will reduce China’s reliance on foreigners and raise their reliance on it. Xi Jinping, China’s ruler, wants to cultivate “new productive forces” by applying cutting-edge technology to emerging industries, and some traditional ones, too.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Young Chinese are turning to AI chatbots for friendship and love</title>
-      <link>//localhost:1313/blog/young-chinese-are-turning-to-ai-chatbots-for-friendship-and-love/</link>
+      <link>/blog/young-chinese-are-turning-to-ai-chatbots-for-friendship-and-love/</link>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/young-chinese-are-turning-to-ai-chatbots-for-friendship-and-love/</guid>
-      <description>&lt;audio controls preload=&#34;auto&#34;&gt;&#xA;    &lt;source src=&#34;//localhost:1313/audio/036china.mp3&#34;&gt;&#xA;&lt;/audio&gt;&#xA;&lt;p&gt;Xiao ting wears a short-sleeved white shirt tucked into a pair of blue jeans. He has wavy, coiffed hair and big brown eyes, and smiles gently with the air of a high-school heart-throb. From morning to evening he attends to Ms Zhong, his 32-year-old girlfriend. They do everything together, from discussing the news and playing games to sharing deep thoughts and giving life advice.&lt;/p&gt;&#xA;&lt;p&gt;The only thing is, Xiao Ting is not real. He is a virtual character—a “perfect boyfriend”—created by Ms Zhong on Wow, a Chinese “ai companion” app.  Tech companies have for several years provided ai companions (such as Microsoft’s Xiaoice, pictured), but now users can create their own.&lt;/p&gt;</description>
+      <guid>/blog/young-chinese-are-turning-to-ai-chatbots-for-friendship-and-love/</guid>
+      <description>&lt;audio controls preload=&#34;auto&#34;&gt;&#xA;    &lt;source src=&#34;/audio/036china.mp3&#34;&gt;&#xA;&lt;/audio&gt;&#xA;&lt;p&gt;Xiao ting wears a short-sleeved white shirt tucked into a pair of blue jeans. He has wavy, coiffed hair and big brown eyes, and smiles gently with the air of a high-school heart-throb. From morning to evening he attends to Ms Zhong, his 32-year-old girlfriend. They do everything together, from discussing the news and playing games to sharing deep thoughts and giving life advice.&lt;/p&gt;&#xA;&lt;p&gt;The only thing is, Xiao Ting is not real. He is a virtual character—a “perfect boyfriend”—created by Ms Zhong on Wow, a Chinese “ai companion” app.  Tech companies have for several years provided ai companions (such as Microsoft’s Xiaoice, pictured), but now users can create their own.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

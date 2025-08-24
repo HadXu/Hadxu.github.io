@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/can-china-cope-with-a-deindustrialised-future/</loc>
+    <loc>/blog/can-china-cope-with-a-deindustrialised-future/</loc>
     <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/the-economist/</loc>
+    <loc>/tags/the-economist/</loc>
     <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/young-chinese-are-turning-to-ai-chatbots-for-friendship-and-love/</loc>
+    <loc>/blog/young-chinese-are-turning-to-ai-chatbots-for-friendship-and-love/</loc>
     <lastmod>2025-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/soft/</loc>
+    <loc>/tags/soft/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/soft/</loc>
+    <loc>/blog/soft/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/markdown/</loc>
+    <loc>/tags/markdown/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/markdown-syntax/</loc>
+    <loc>/blog/markdown-syntax/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/syntax/</loc>
+    <loc>/tags/syntax/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/cv/</loc>
+    <loc>/cv/</loc>
   </url>
 </urlset>
